@@ -1,0 +1,50 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #d6d6d6;
+}
+
+.fundo {
+    background-color: #f0f0f0;
+}
+
+.primeiro {
+    color: blue;
+
+}
+
+.segundo {
+    color: rgb(173, 216, 230);
+
+}
+
+.sexto{
+    color: green;
+}
+.ultimo{
+    color: red;
+}
+
+td .seta{
+    align-content: right;
+}
+.tamanho{
+    width: 8px; height: 8px;
+}
+.alinhar{
+    text-align: left;
+}
+.alinharsub{
+    text-align-last: right;
+}
