@@ -55,3 +55,18 @@ th {
 .colunaDireita {
     border-right: 1px solid #444;
 }
+
+.titulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 130%;
+    background-color: rgb(65, 230, 65);
+    max-width: 80%;
+    margin-left: 10%;
+
+}
+
+.nego {
+    font-weight: bold;
+}
