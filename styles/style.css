@@ -46,5 +46,6 @@ td .seta{
     text-align: left;
 }
 .alinharsub{
-    text-align-last: right;
+    text-align: right;
+    font-size: 0.225cm ;
 }
