@@ -13,7 +13,6 @@ td {
 th {
     border-bottom: 1px solid rgb(212, 212, 212);
     border-top: 1px solid rgb(212, 212, 212);
-    ;
     padding: 10px;
     text-align: center;
     background-color: #f8f8f8;
@@ -53,6 +52,6 @@ th {
     font-size: 0.225cm;
 }
 
-/* .td .colunaDireita{
- border-right: rgb(218, 23, 23);   
-} */
+.colunaDireita {
+    border-right: 1px solid #444;
+}
