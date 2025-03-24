@@ -4,7 +4,7 @@ table {
     margin: 20px auto;
 }
 
-th,
+
 td {
     border-bottom: 1px solid rgb(212, 212, 212);
     padding: 10px;
@@ -12,7 +12,11 @@ td {
 }
 
 th {
-    background-color: #d6d6d6;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-top: 1px solid rgb(212, 212, 212);;
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f8f8;
 }
 
 .fundo {
@@ -21,31 +25,34 @@ th {
 
 .primeiro {
     color: blue;
-
 }
 
 .segundo {
     color: rgb(173, 216, 230);
-
 }
 
-.sexto{
+.sexto {
     color: green;
 }
-.ultimo{
+
+.ultimo {
     color: red;
 }
 
-td .seta{
-    align-content: right;
+.tamanho {
+    width: 8px;
+    height: 8px;
 }
-.tamanho{
-    width: 8px; height: 8px;
-}
-.alinhar{
+
+.alinhar {
     text-align: left;
 }
-.alinharsub{
+
+.alinharsub {
     text-align: right;
-    font-size: 0.225cm ;
+    font-size: 0.225cm;
 }
+
+/* .td .colunaDireita{
+ border-right: rgb(218, 23, 23);   
+} */
